@@ -3,66 +3,73 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Portfolio</title>
+
+		<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<logo>
-			<h1> Company Name </h1>
+	<header class="main-header">
+		<a class="site-logo" href="/">
 			<h3> Description </h3>
-		</logo>
-		<nav>
-       <ul>
+			</a>
+
+     <ul class="nav">
 				<li> <a href="#"> Gallery </a></li>
 				<li> <a href="#"> About </a></li>
 				<li> <a href="#"> Contact </a></li>
-			</ul>
-		</nav>
+		</ul>
+
 	</header>
 
 	<main>
-     <artricle >
-		         <img src="images\numbers-01.jpg">
+		<div class="row">
+
+		<section class="primary col">
+		  <artricle>
+			<img src="images\numbers-01.jpg">
 						 <p>
 							 Experimentation with color and texture
 						 </p>
-		   </artricle>
+			</artricle>
 
-		 <artricle>
-		         <img src="images\numbers-01.jpg">
-						 <p>
-							 Experimentation with color and texture
-						 </p>
-		        </artricle>
-
-		 <artricle>
-		         <img src="images\numbers-02.jpg">
-						 <p>
-							 Experimentation with color and texture
-						 </p>
-		        </artricle>
-
-		 <artricle>
+				 <artricle>
 		         <img src="images\numbers-06.jpg">
 						 <p>
 							 Experimentation with color and texture
 						 </p>
-		        </artricle>
+		   </artricle>
+	  </section>
 
-
-		 <artricle>
+		 <section class="secondary col">
+		    <artricle>
+			 <img src="images\numbers-01.jpg">
+						 <p>
+							 Experimentation with color and texture
+						 </p>
+			 </artricle>
+			 	 <artricle>
 		         <img src="images\numbers-09.jpg">
 						 <p>
 							 Experimentation with color and texture
 						 </p>
 		        </artricle>
+			</section>
 
-
-		 <artricle>
+			<section class="ternary col">
+				<artricle>
+		         <img src="images\numbers-02.jpg">
+						 <p>
+							 Experimentation with color and texture
+						 </p>
+				</artricle>
+				<artricle>
 		         <img src="images\numbers-12.jpg">
 						 <p>
 							 Experimentation with color and texture
 						 </p>
 		        </artricle>
+		  </section>
+
+		</div>
 	</main>
 	<footer>
 
