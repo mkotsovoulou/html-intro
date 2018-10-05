@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script src="advanced.js"></script>
+	<style>
+		#numbers {
+			background-color: grey;
+			height: 60px;
+			width: 100px;
+			overflow: scroll;
+			margin: 20px 30px;
+			border: 1px solid black;
+		}
+		.hidden {
+			display: none;
+		}
+		.visible {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<label for="fromNumber"> From </label>
+		<input type="number" id="fromNumber" name="fromNumber"/>
+		<label for="toNuddmber"> To</label>
+		<input type="number" id="toNumber" name="toNumber"/>
+    <input type="button"	value="Count Numbers" onclick="countN();" />
+		<input type="submit" value="Click me">
+	</form>
+
+			<div id="numbers" class="hidden">
+
+		  </div>
+
+</body>
+</html>
