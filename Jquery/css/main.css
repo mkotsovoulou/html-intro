@@ -1,0 +1,10 @@
+.promo {
+	text-decoration: underline;
+  font-weight: bold;
+  color: grey;
+	background-color: yellow;
+}
+
+.hidden {
+	display:none;
+}
