@@ -4,7 +4,6 @@ $(document).ready(function() {
         $(".green").text("GREEN");
 
         $("#destination").addClass('promo');
-    //    $("#transport").addClass('hidden');
 
         $('.autohide').on('click', function () {
           $(this).next('.transport').fadeToggle();

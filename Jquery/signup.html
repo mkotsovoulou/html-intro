@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Sign up</title>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+</head>
+<body>
+	<h1>
+		Join us!
+	</h1>
+	<form action="#">
+	 <fieldset>
+
+		<label for="name">Username</label>
+    <input id="name" type="text" placeholder="Username">
+
+		<label for="pass1">Password</label>
+    <input id="pass1" type="password" placeholder="Password">
+		<div id="errorPass1" class="form-message">This is a required field.</div>
+
+		<label for="pass2">Verify Password</label>
+    <input id="pass2" type="password" placeholder="Verify Password">
+		<div id="errorPass2" class="form-message">This is a required field.</div>
+
+    <label for="newsletter">
+     <input id="newsletter" type="checkbox" checked> Join our newsletter?
+     </label>
+     <label for="email">email</label>
+     <input id="email" type="email" placeholder="Username">
+		 <button type="submit">Submit</button>  <button type="clear">Clear</button>
+		</fieldset>
+	</form>
+</body>
+</html>
+
