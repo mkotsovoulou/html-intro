@@ -9,28 +9,41 @@
 	<h1>
 		Join us!
 	</h1>
-	<form action="#">
+	<form id="registration" action="#" class="pure-form pure-form-aligned">
+
 	 <fieldset>
+ <div class="pure-control-group">
 
 		<label for="name">Username</label>
     <input id="name" type="text" placeholder="Username">
+		 </div>
 
+		 <div class="pure-control-group">
 		<label for="pass1">Password</label>
-    <input id="pass1" type="password" placeholder="Password">
-		<div id="errorPass1" class="form-message">This is a required field.</div>
-
+    <input id="pass1" name="pass1" type="password" placeholder="Password">
+		 <div class="pure-control-group">
 		<label for="pass2">Verify Password</label>
-    <input id="pass2" type="password" placeholder="Verify Password">
-		<div id="errorPass2" class="form-message">This is a required field.</div>
+    <input id="pass2" name="pass2" type="password" placeholder="Verify Password">
 
+		 </div>
+<div class="pure-control-group">
     <label for="newsletter">
      <input id="newsletter" type="checkbox" checked> Join our newsletter?
      </label>
+		 </div>
+		 <div class="pure-control-group">
      <label for="email">email</label>
      <input id="email" type="email" placeholder="Username">
-		 <button type="submit">Submit</button>  <button type="clear">Clear</button>
+		 </div>
+		   <div class="pure-controls">
+		 <button class="pure-button pure-button-primary" type="submit" onClick="validateForm();">Submit</button>  <button class="pure-button pure-button-primary" type="clear">Clear</button>
+		 </div>
 		</fieldset>
 	</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script src="js\signup.js"></script>
 </body>
 </html>
 
