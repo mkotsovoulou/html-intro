@@ -14,19 +14,20 @@
 	 <fieldset>
  <div class="pure-control-group">
 
-		<label for="name">Username</label>
-    <input id="name" type="text" placeholder="Username">
+		<label for="username">Username</label>
+    <input id="username" type="text" placeholder="Username" >
 		 </div>
 
 		 <div class="pure-control-group">
 		<label for="pass1">Password</label>
-    <input id="pass1" name="pass1" type="password" placeholder="Password">
+    <input id="pass1" name="pass1" type="password" placeholder="Password"> <div id="errorPass1"> </div>
+			 </div>
 		 <div class="pure-control-group">
 		<label for="pass2">Verify Password</label>
     <input id="pass2" name="pass2" type="password" placeholder="Verify Password">
-
+     <div id="errorPass2"> </div>
 		 </div>
-<div class="pure-control-group">
+   <div class="pure-control-group">
     <label for="newsletter">
      <input id="newsletter" type="checkbox" checked> Join our newsletter?
      </label>
@@ -36,7 +37,7 @@
      <input id="email" type="email" placeholder="Username">
 		 </div>
 		   <div class="pure-controls">
-		 <button class="pure-button pure-button-primary" type="submit" onClick="validateForm();">Submit</button>  <button class="pure-button pure-button-primary" type="clear">Clear</button>
+		 <button class="pure-button pure-button-primary" type="submit" onclick="validateForm();">Submit</button>          <button class="pure-button pure-button-primary" type="clear">Clear</button>
 		 </div>
 		</fieldset>
 	</form>
