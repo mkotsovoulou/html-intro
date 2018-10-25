@@ -1,2 +1,2 @@
 I WILL PROVIDE YIU WITH THE USER AND THE PASSWORD IN CLASS
-mysql -h mysql -u root -pmysecretpassword
+mysql -h mysql -u root -p
