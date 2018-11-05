@@ -21,7 +21,7 @@
    //  echo count($courses);
     echo '<select name="courses" id="courses">';
      for ($row=0; $row<count($courses); $row++ ) {
-       echo '<option value="' . $courses[$row]. '">' . $courses[$row]. '</option>';
+       echo '<option value="' . $courses["id"]. '">' . $courses["name"]. '</option>';
        echo '<br>';
      }
   echo '</select>';

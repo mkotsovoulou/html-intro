@@ -1,7 +1,7 @@
 <?php
-
+ini_set('display_errors', '1');
 try {
-    $db = new PDO('mysql:host=mysql;dbname=moviedb;port=3306', root, mysecretpassword);
+    $db = new PDO('mysql:host=mysql;dbname=moviedb;port=3306', 'root', 'mysecretpassword');
     //Default error mode is SILENT but I want to see my error while developing
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 } catch (Exception $e){

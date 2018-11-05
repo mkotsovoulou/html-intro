@@ -59,4 +59,31 @@ function getMovieByTitleCost($title, $cost) {
   return $results;
 }
 
+function insertMovie($title, $category, $py, $price){
+	include("db.php"); //includes the file with the connection details
+  try {
+      $query = $db->prepare("insert into Movies (title, category_id, production_year, rental_price) values ( ? , ? , ? , ?)");
+      $query->bindValue(1, $title);
+      $query->bindValue(2, $category);
+      $query->bindValue(3, $py);
+      $query->bindValue(4, $price);
+      $query->execute();
+    return true;
+  } catch (Exception $e) {
+     echo "Error in SQL query";
+     return false;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
 ?>
