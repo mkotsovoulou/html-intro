@@ -46,7 +46,7 @@ DROP TABLE IF EXISTS subscribers ;
 CREATE TABLE IF NOT EXISTS subscribers (
   subscriber_id INT NOT NULL AUTO_INCREMENT,
   email VARCHAR(45) NOT NULL,
-  created_on VARCHAR(45) NULL DEFAULT 'CURRENT_TIMESTAMP',
+  created_on TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (subscriber_id),
   UNIQUE INDEX email_UNIQUE (email ASC))
 ENGINE = InnoDB;
@@ -69,5 +69,7 @@ insert into Movies (movie_id, title, category_id) values (8, 'Mission Impossible
 insert into Movies (movie_id, title, category_id) values (9, 'Crazy Mission', 4);
 insert into Movies (movie_id, title, category_id) values (10, 'Its raining men', 4);
 
-
+insert into subscribers (email) values ('mkotsovoulou@acg.edu');
+insert into subscribers (email) values ('louvaris@acg.edu');
+insert into subscribers (email) values ('louvaris@acg.edu');
 
