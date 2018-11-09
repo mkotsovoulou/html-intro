@@ -1,0 +1,2 @@
+[09-Nov-2018 11:10:40 UTC] PHP Fatal error:  Call to undefined function logins() in /mnt/project/test.php on line 3
+[09-Nov-2018 11:10:43 UTC] PHP Fatal error:  Call to undefined function logins() in /mnt/project/test.php on line 3

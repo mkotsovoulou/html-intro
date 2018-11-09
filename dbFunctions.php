@@ -73,10 +73,24 @@ function insertMovie($title, $category, $py, $price){
      echo "Error in SQL query";
      return false;
   }
-
-
 }
 
+function login($id, $email) {
+    include("db.php");
+   try {
+      $query = $db->prepare("select * from subscribers where email=? and subscriber_id=?");
+ 			$query->bindValue(1, $email);
+      $query->bindValue(2, $id);
+      $query->execute();
+ 			if ($query->rowCount() == 0)
+          return false;
+ 			else
+          return true;
+     } catch (Exception $e) {
+     echo "Error in SQL query";
+     return false;
+  }
+}
 
 
 

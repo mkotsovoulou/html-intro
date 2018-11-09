@@ -1,0 +1,21 @@
+[09-Nov-2018 11:22:29 UTC] PHP Notice:  Undefined variable: _SESSION in /mnt/project/Sessions/index.php on line 9
+[09-Nov-2018 11:25:51 UTC] PHP Parse error:  syntax error, unexpected 'startSession' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/index.php on line 14
+[09-Nov-2018 11:33:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:33:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:33:48 UTC] PHP Parse error:  syntax error, unexpected 'action' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:33:53 UTC] PHP Parse error:  syntax error, unexpected 'els' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:33:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:34:02 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:34:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:34:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 12
+[09-Nov-2018 11:40:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:40:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:40:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /mnt/project/Sessions/startSession.php on line 14
+[09-Nov-2018 11:40:41 UTC] PHP Parse error:  syntax error, unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 17
+[09-Nov-2018 11:40:46 UTC] PHP Parse error:  syntax error, unexpected 'index' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:40:50 UTC] PHP Parse error:  syntax error, unexpected 'index' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:40:55 UTC] PHP Parse error:  syntax error, unexpected 'href' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:41:00 UTC] PHP Parse error:  syntax error, unexpected 'index' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 13
+[09-Nov-2018 11:41:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /mnt/project/Sessions/startSession.php on line 14
+[09-Nov-2018 11:41:07 UTC] PHP Parse error:  syntax error, unexpected 'type' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 18
+[09-Nov-2018 11:45:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /mnt/project/Sessions/index.php on line 15

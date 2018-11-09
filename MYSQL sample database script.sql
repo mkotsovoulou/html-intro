@@ -71,5 +71,5 @@ insert into Movies (movie_id, title, category_id) values (10, 'Its raining men',
 
 insert into subscribers (email) values ('mkotsovoulou@acg.edu');
 insert into subscribers (email) values ('louvaris@acg.edu');
-insert into subscribers (email) values ('louvaris@acg.edu');
+insert into subscribers (email) values ('chris@acg.edu');
 
