@@ -84,8 +84,10 @@ function login($id, $email) {
       $query->execute();
  			if ($query->rowCount() == 0)
           return false;
- 			else
+ 			else {
+          $_SESSION["user"] = $email;
           return true;
+      }
      } catch (Exception $e) {
      echo "Error in SQL query";
      return false;
