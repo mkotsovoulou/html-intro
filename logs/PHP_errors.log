@@ -19,3 +19,4 @@
 [09-Nov-2018 11:41:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /mnt/project/Sessions/startSession.php on line 14
 [09-Nov-2018 11:41:07 UTC] PHP Parse error:  syntax error, unexpected 'type' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 18
 [09-Nov-2018 11:45:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /mnt/project/Sessions/index.php on line 15
+[12-Nov-2018 11:53:55 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /mnt/project/index.php on line 16
