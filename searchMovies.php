@@ -14,12 +14,13 @@
 ?>
 
   <table>
-    <tr> <th>ID </th> <th> CATEGORY </th></tr>
+    <tr> <th>TITLE</th> <th> CATEGORY </th> <th> PHOTO </th><tr>
     <?php
     foreach ($movies as $row) {
         echo '<tr>';
         echo '<td>' . $row["title"]   . '</td>';
         echo '<td>' . $row["rental_price"] . '</td>';
+        echo '<td><img src="/images/' . $row["photo"] . '"/></td>';
         echo '</tr>';
     } ?>
 

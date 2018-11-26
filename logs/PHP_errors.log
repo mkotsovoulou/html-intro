@@ -20,3 +20,49 @@
 [09-Nov-2018 11:41:07 UTC] PHP Parse error:  syntax error, unexpected 'type' (T_STRING), expecting ',' or ';' in /mnt/project/Sessions/startSession.php on line 18
 [09-Nov-2018 11:45:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /mnt/project/Sessions/index.php on line 15
 [12-Nov-2018 11:53:55 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /mnt/project/index.php on line 16
+[12-Nov-2018 12:43:55 UTC] PHP Fatal error:  Cannot redeclare getMovieCategories() (previously declared in /mnt/project/dbFunctions.php:4) in /mnt/project/dbFunctions.php on line 4
+[12-Nov-2018 12:46:58 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:01 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:04 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:07 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:13 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 27
+[12-Nov-2018 12:47:47 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:47:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:47:53 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:47:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:47:56 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:47:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:00 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:02 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:02 UTC] PHP Notice:  Undefined variable: movcat in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:48:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:49:12 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:49:12 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:49:12 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:49:57 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:49:57 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:49:57 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:50:14 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:14 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:14 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:50:15 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:15 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:15 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:50:33 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:33 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:50:33 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:52:02 UTC] PHP Warning:  include(dbfunctions.php): failed to open stream: No such file or directory in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:52:02 UTC] PHP Warning:  include(): Failed opening 'dbfunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/project/navbar.php on line 17
+[12-Nov-2018 12:52:02 UTC] PHP Fatal error:  Call to undefined function getmoviecategories() in /mnt/project/navbar.php on line 18
+[12-Nov-2018 12:53:10 UTC] PHP Fatal error:  Cannot redeclare getMovieCategories() (previously declared in /mnt/project/dbFunctions.php:4) in /mnt/project/dbFunctions.php on line 4
+[16-Nov-2018 11:26:42 UTC] PHP Notice:  Undefined index: title in /mnt/project/searchMovies.php on line 9
+[16-Nov-2018 11:30:22 UTC] PHP Notice:  Undefined index: title in /mnt/project/searchMovies.php on line 9
+[19-Nov-2018 09:47:57 UTC] PHP Notice:  Undefined index: title in /mnt/project/searchMovies.php on line 9
+[21-Nov-2018 12:02:51 UTC] PHP Notice:  Undefined index: title in /mnt/project/searchMovies.php on line 9

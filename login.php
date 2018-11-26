@@ -1,7 +1,6 @@
 <?php
 include('start.php');
 include('navbar.php');
-include('dbFunctions.php');
 ?>
 <center><h1>Login</h1></center>
 <div class="container container-small">

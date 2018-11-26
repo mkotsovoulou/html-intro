@@ -1,5 +1,20 @@
+#To disallow the display of the files of the web site
+Options -Indexes
+
 php_flag display_startup_errors on
 php_flag display_errors on
 php_flag html_errors on
 php_flag log_errors on
 php_value error_log /mnt/project/logs/PHP_errors.log
+
+#to set the default page of the web site
+DirectoryIndex index.php
+
+#404 Error code means page not found
+# ErrorDocument 404 /pagenotfound.php
+ErrorDocument 404 https://zsdtfgu2.apps.lair.io
+
+#403 Error code means access forbidden
+ErrorDocument 403 https://zsdtfgu2.apps.lair.io
+
+
